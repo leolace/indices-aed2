@@ -35,6 +35,7 @@ public class Main {
 
           MangaEntity.update(mangaToUpdate, scan);
           repo.atualizarManga(mangaToUpdate);
+          System.out.println(mangaToUpdate.toString());
           System.out.println("Mangá atualizado com sucesso!");
           break;
         case 5:
