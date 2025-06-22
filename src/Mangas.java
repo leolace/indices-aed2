@@ -132,8 +132,18 @@ public class Mangas {
     }
     @Override
     public String toString() {
-        return "Título: " + titulo + ", ISBN: " + ISBN + ", Autor: " + autor +
-                ", Gênero: " + genero + ", Volumes adquiridos: " + listaVolumesAdquiridos;
+        return "Título: " + titulo +
+                ", ISBN: " + ISBN +
+                ", Autor: " + autor +
+                ", Ano de Início: " + anoInicio +
+                ", Ano de Fim: " + anoFim +
+                ", Gênero: " + genero +
+                ", Revista: " + revista +
+                ", Editora: " + editora +
+                ", Ano da Edição: " + anoEdicao +
+                ", Quantidade de Volumes: " + quantidadeVolumes +
+                ", Quantidade de Volumes Adquiridos: " + quantidadeVolumesAdquiridos +
+                ", Volumes Adquiridos: " + listaVolumesAdquiridos;
     }
 
 }
